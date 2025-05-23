@@ -16,8 +16,6 @@ public class DoctorsServiceImpl implements DoctorsService {
     @Autowired
     private DoctorsRepository doctorsRepository;
 
-    private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-
     @Override
     public Doctors createDoctors(DoctorsDTO doctorsDTO) {
 
