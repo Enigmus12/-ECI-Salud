@@ -1,4 +1,6 @@
 package Escuelaing.edu.co.ParcialFinal.service.Impl;
 
-public class AppointmenServicetImpl {
+import Escuelaing.edu.co.ParcialFinal.service.Interfaces.AppointmentService;
+
+public class AppointmenServicetImpl implements AppointmentService {
 }
