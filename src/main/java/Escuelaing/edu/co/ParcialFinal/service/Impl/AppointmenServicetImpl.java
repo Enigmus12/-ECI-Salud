@@ -6,6 +6,7 @@ import Escuelaing.edu.co.ParcialFinal.model.Doctors;
 import Escuelaing.edu.co.ParcialFinal.service.Interfaces.AppointmentRepository;
 import Escuelaing.edu.co.ParcialFinal.service.Interfaces.AppointmentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
